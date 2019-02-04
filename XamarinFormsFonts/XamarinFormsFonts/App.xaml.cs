@@ -11,7 +11,8 @@ namespace XamarinFormsFonts
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new CodeContentPage();
         }
 
         protected override void OnStart()
