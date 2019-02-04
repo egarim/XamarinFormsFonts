@@ -9,7 +9,7 @@
         <!--<Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />-->
-        <Label Text="&#xf599;"   FontSize="36" FontFamily="{StaticResource FontAwesomeRegular}"  HorizontalOptions="Center"
+        <Label Text="&#xf2bd;" FontSize="36" FontFamily="{StaticResource FontAwesomeRegular}"  HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand"  />
     </StackLayout>
 

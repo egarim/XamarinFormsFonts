@@ -20,13 +20,13 @@ namespace XamarinFormsFonts
 		{
             OnPlatform<string> FontDictionary = Application.Current.Resources["FontAwesomeRegular"] as OnPlatform<string>;
 
-
+            string CharValueAsString = ParseHexValueToString("f58b");
             string Font = FontDictionary;
             Debug.WriteLine(string.Format("{0}:{1}", "Font", Font));
             Content = new StackLayout
             {
                 Children = {
-                    new Label { Text=ParseHexValueToString("f599"),
+                    new Label { Text=ParseHexValueToString("f58b"),
                         VerticalOptions = LayoutOptions.CenterAndExpand,
                         HorizontalOptions = LayoutOptions.CenterAndExpand,
                         FontSize=36,
